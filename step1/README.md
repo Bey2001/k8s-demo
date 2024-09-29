@@ -21,3 +21,7 @@ Kind is a fully-fledged Kubernetes distribution, meaning that clusters spun up b
 For kind to work, we need to pull and use the container images that can replicate the function of a normal Kubernetes node.  This involves several key systems like the kube API server in the control plan, to the kubelet and kube-proxy systems on each worker node in the cluster --- all of these are included in the kindest/node container image.
 
 We will be using several container images to accomplish different functions throughout this lab exercise.  Note that while this one container image is simply pulled, every container image that we use __within__ the kind cluster will also have to be loaded.  We will see how to do this loading operation in future stages of the project.
+
+# Completion
+
+To complete Step 1, simply run the setup script that corresponds to your operating system.

@@ -14,21 +14,20 @@ This lab will be broken down into steps.  At each stage, there will be a brief p
    1. Explanation of Binaries
 2. Containerizing the Application
    1. How do you containerize an application?
-   2. Introduction to Docker files
-      1. Fill in the blank
-      2. Word bank in README
-         1. Definitions of each Docker directive also in README
+   2. Introduction to Dockerfiles
 3. Containerizing the Database
    1. Breakdown of the YAML file
    2. ConfigMaps, Secrets
-   3. Persistent Volume Claim, Service, Deployment
+   3. Persistent Volume Claims, Services, Deployments
+      1. Highlighting the different types of Services
 4. Deploying the Application
-   1. Configuring the Service and Deployment for the back end
-   2. Highlight the different types of Services
+   1. Configuring the Service and Deployment for the backend
+   2. Configuring the Service and Deployment for the frontend
 5. Introducing Istio
    1. Walkthrough of what Istio is and what it does
    2. Introduce Istio CRDs and a brief primer on what they are
    3. Setting up Istio in the mesh
 6. Securing with Istio
-   1. Use Istio CRDs to get rid of the NodePort Service need
+   1. Use Istio CRDs to get rid of the need for NodePort Services
       1. Edit the original Service YAML files to now use ClusterIP for the ClusterIP field instead of NodePort
+7. Further security options
